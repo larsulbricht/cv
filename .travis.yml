@@ -1,18 +1,15 @@
-language: generic 
-sudo: required
+language: node_js
+node_js:
+ - "node"
 
-services:
-  - docker
+cache: npm
 
-before_install:
-  - docker build -t lulbricht179/homepage-cv -f Dockerfile.dev .
+script: npm run build
 
 deploy:
  provider: pages
- app: "docker"
- env: "Docker-env"
  skip_cleanup: true
  github_token: $GITHUB_TOKEN
  local_dir: dist
  on:
-   branch: main
+   branch: production-branch
