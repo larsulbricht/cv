@@ -7,7 +7,10 @@
   background-attachment: fixed;
   background-position: right -200px center;
   background-repeat: repeat-x;
-  background-size: cover;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
   }
 
   #black-text {
@@ -123,7 +126,6 @@
       background-image: url("../sitefoto-top.jpg");
       background-attachment: scroll;
       background-position: bottom 60% center;
-      background-size: cover;
       }
 
       #black-text {
