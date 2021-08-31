@@ -8,8 +8,9 @@ script: npm run build
 
 deploy:
  provider: pages
+ target_branch: production-branch
  skip_cleanup: true
  github_token: $GITHUB_TOKEN
  local_dir: dist
  on:
-   branch: production-branch
+   branch: master
