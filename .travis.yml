@@ -7,11 +7,10 @@ services:
 before_install:
   - docker build -t lulbricht179/homepage-cv -f Dockerfile.dev .
 
-script:
-  - docker run -e CI=true lulbricht179/homepage npm run test
-
 deploy:
  provider: pages
+ app: "docker"
+ env: "Docker-env"
  skip_cleanup: true
  github_token: $GITHUB_TOKEN
  local_dir: dist
