@@ -4,8 +4,7 @@
    
   /* Set a specific height */
   background-image: url("../sitefoto-left.jpg");
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
   background-position: right -200px center;
   background-repeat: repeat-x;
   background-size: cover;
@@ -122,8 +121,7 @@
       /* Set a specific height */
 
       background-image: url("../sitefoto-top.jpg");
-      /* Create the parallax scrolling effect */
-      background-attachment: fixed;
+      /* background-attachment: fixed; */
       background-position: bottom 60% center;
       background-size: cover;
       }
