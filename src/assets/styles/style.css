@@ -2,6 +2,10 @@
   width: 30%;
 }
 
+.title-name{
+  position:absolute;
+}
+
 .parallax {
   /* Set a specific height */
   background-image: url("../sitefoto-left.jpg");
@@ -104,15 +108,27 @@
     line-height: 1rem !important;
   }
 
+  .chevron::before {
+    border-width: 0.03em 0.03em 0 0;
+    display: inline-block;
+    height: 0.3em;
+    left: 0.15em;
+    position: relative;
+    top: 0.15em;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 0.3em;
+  }
+
   .chevron.bottom:before {
-    left: 240%;
+    left: 25vw;
     top: -50vh;
   }
 
   #about_me_text {
     font-size: 6vw;
     font-weight: 50;
-    bottom: 60vh !important;
+    bottom: 57vh !important;
     padding-left: 0rem;
     line-height: 0rem;
   }
