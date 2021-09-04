@@ -31,7 +31,7 @@
           @click="
             dialog = true;
             (document_name = 'JLPT N1'),
-              (links = ['./../assets/jlpt_certificate_copy.png']);
+              (links = ['jlpt_certificate_copy.png']);
           "
         >
           <v-img
@@ -53,7 +53,7 @@
           @click="
             dialog = true;
             (document_name = 'CEFR C2'),
-            (links = ['./../assets/daad_C2_1_2.jpg', './../assets/daad_C2_2_2.jpg']);
+            (links = ['daad_C2_1_2.jpg', 'daad_C2_2_2.jpg']);
           "
         >
           <v-img
@@ -82,7 +82,7 @@
               <v-carousel :show-arrows="false">
                 <v-carousel-item v-for="link in links" :key="link"
                   ><v-img
-                    :src="link"
+                    :src="require(`@/assets/${link}`)"
                     height="100%"
                     backgroundsize="cover"
                     contain
@@ -102,6 +102,7 @@ export default {
   name: "Certificate",
   data() {
     return {
+      
       dialog: false,
       document_name: "",
       links: [],
