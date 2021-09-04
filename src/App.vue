@@ -1,5 +1,6 @@
 <template>
-  <v-app id="inspire">
+
+  <v-app id="lars-homepage">
     <side-navigation></side-navigation>
     <v-main>
       <!--           
@@ -100,6 +101,7 @@ import Links from "./components/Links.vue";
 import Contact from "./components/Contact.vue";
 
 export default {
+  title: "Lars Ulbricht - Homepage",
   name: "Homepage",
   components: {
     Education,
