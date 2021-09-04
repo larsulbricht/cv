@@ -9,16 +9,22 @@
 
       <v-card class="ml-0 mt-0">
         <v-img class="parallax pt-5" height="100vh">
-          <h1 id="black-text" class="text-h1 ml-6">
-            Lars <br />
+          <h1
+            id="black-text"
+            :class="{ 'text-center': this.$vuetify.breakpoint.xs }"
+            class="text-h1 ml-6"
+          >
+            Lars <br v-if="!this.$vuetify.breakpoint.xs" />
             Ulbricht
           </h1>
           <div v-if="this.scrolled == 0" id="down_arrow">
- 
-          <v-icon @click="$vuetify.goTo('#about_head')" class="mt-30 chevron bottom" color="black" size="6rem"
+            <v-icon
+              @click="$vuetify.goTo('#about_head')"
+              class="mt-30 chevron bottom"
+              color="black"
+              size="6rem"
               >mdi-chevron-down</v-icon
             >
-
           </div>
         </v-img>
       </v-card>
@@ -47,13 +53,24 @@
         ><v-icon class="mr-4">mdi-message</v-icon> Motto
       </v-banner>
       <v-card></v-card>
-      <v-card-text class="pl-13 mt-4 mb-4" id="about_me_text">
-        <v-icon class="mr-2 pb-8 quote-icon">mdi-format-quote-open</v-icon>
-        Automate <br />
-        <br />
-        <br />
-        the boring part. 
-        <v-icon class="mr-2 pb-8 quote-icon">mdi-format-quote-close</v-icon>
+      <v-card-text
+        :class="{
+          'text-center': this.$vuetify.breakpoint.xs,
+          'pl-13': this.$vuetify.breakpoint.sm,
+        }"
+        class="mt-4 mb-4"
+        id="about_me_text"
+      >
+        <v-icon  :class="{
+          'mr-2': this.$vuetify.breakpoint.sm,
+        }" class="pb-8 quote-icon">mdi-format-quote-open</v-icon>
+        Automate <br v-if="!this.$vuetify.breakpoint.xs" />
+        <br v-if="!this.$vuetify.breakpoint.xs" />
+        <br  v-if="!this.$vuetify.breakpoint.xs" />
+        the boring part.
+        <v-icon :class="{
+          'mr-2': this.$vuetify.breakpoint.sm,
+        }" class="pb-8 quote-icon">mdi-format-quote-close</v-icon>
       </v-card-text>
 
       <about-me></about-me>
@@ -100,7 +117,8 @@ export default {
     return {
       scrolled: 0,
     };
-  },  created() {
+  },
+  created() {
     window.addEventListener("scroll", this.handleScroll);
   },
   destroyed() {

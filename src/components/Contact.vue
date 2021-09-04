@@ -4,8 +4,8 @@
       ><v-icon class="mr-4">mdi-card-account-phone </v-icon>Kontakt</v-banner
     >
 
-    <v-responsive :aspect-ratio="1.545 / 1" class="mt-4" max-width="800px">
-      <v-card elevation="7" outlined tile min-width="525px" min-height="300px">
+    <v-responsive :aspect-ratio="1.545 / 1" class="mt-4"  max-width="800px">
+      <v-card elevation="7" outlined tile min-width="100%" min-height="300px">
         <v-list-item three-line>
           <v-list-item-content>
             <div class="text-overline mb-4">
@@ -28,7 +28,7 @@
         <v-card-actions>
           <v-list dense>
             <v-list-item-title>Kontakt</v-list-item-title>
-            <v-list-item>
+            <v-list-item >
               <v-list-item-title class="mr-4">
                 Email:
               </v-list-item-title>

@@ -4,7 +4,7 @@
       ><v-icon class="mr-4">mdi-chevron-triple-up</v-icon>Zertifikate</v-banner
     >
     <v-container class="d-flex flex-wrap justify-center justify-md-space-around">
-      <v-card class="mt-4 ml-md-4" min-width="250px" width="30%">
+      <v-card class="mt-4 ml-md-4 hobby-box" min-width="250px">
         <v-card-title primary-title>
            {{$vuetify.lang.locales[$vuetify.lang.current].certifications.aws1.name}}
         </v-card-title>
@@ -22,7 +22,7 @@
         </a>
       </v-card>
 
-      <v-card class="mt-4 ml-md-4" min-width="250px" width="30%">
+      <v-card class="mt-4 ml-md-4 hobby-box" min-width="250px">
         <v-card-title primary-title>
           {{$vuetify.lang.locales[$vuetify.lang.current].certifications.jlptn1.name}}
         </v-card-title>
@@ -31,7 +31,7 @@
           @click="
             dialog = true;
             (document_name = 'JLPT N1'),
-              (links = ['/jlpt_certificate_copy.png']);
+              (links = ['./../assets/jlpt_certificate_copy.png']);
           "
         >
           <v-img
@@ -44,7 +44,7 @@
         </a>
       </v-card>
 
-      <v-card class="mt-4 ml-md-4 ml-3" min-width="250px" width="30%">
+      <v-card class="mt-4 ml-md-4 hobby-box" min-width="250px">
         <v-card-title primary-title>
           {{$vuetify.lang.locales[$vuetify.lang.current].certifications.english_c2.name}}
         </v-card-title>
@@ -53,7 +53,7 @@
           @click="
             dialog = true;
             (document_name = 'CEFR C2'),
-            (links = ['/daad_C2_1_2.jpg', '/daad_C2_2_2.jpg']);
+            (links = ['./../assets/daad_C2_1_2.jpg', './../assets/daad_C2_2_2.jpg']);
           "
         >
           <v-img
