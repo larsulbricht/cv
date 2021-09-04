@@ -29,9 +29,7 @@
 
         <a
           @click="
-            dialog = true;
-            (document_name = 'JLPT N1'),
-              (links = ['jlpt_certificate_copy.png']);
+            dialog1 = true;
           "
         >
           <v-img
@@ -51,9 +49,7 @@
 
         <a
           @click="
-            dialog = true;
-            (document_name = 'CEFR C2'),
-            (links = ['daad_C2_1_2.jpg', 'daad_C2_2_2.jpg']);
+            dialog2 = true;
           "
         >
           <v-img
@@ -67,22 +63,22 @@
       </v-card>
 
       <v-row justify="center">
-        <v-dialog v-model="dialog" width="600px">
+        <v-dialog v-model="dialog1" width="600px">
           <v-card>
             <v-card-title>
-              <span class="text-h5">{{ document_name }}</span>
+              <span class="text-h5">JLPT N1</span>
             </v-card-title>
             <v-card-actions>
               <v-spacer></v-spacer>
-              <v-btn color="green darken-1" text @click="dialog = false">
+              <v-btn color="green darken-1" text @click="dialog1 = false">
                  {{$vuetify.lang.locales[$vuetify.lang.current].controls.close}}
               </v-btn>
             </v-card-actions>
             <v-card-text>
               <v-carousel :show-arrows="false">
-                <v-carousel-item v-for="link in links" :key="link"
+                <v-carousel-item
                   ><v-img
-                    :src="require(`@/assets/${link}`)"
+                    src="./../assets/jlpt_certificate_copy.png"
                     height="100%"
                     backgroundsize="cover"
                     contain
@@ -93,6 +89,43 @@
           </v-card>
         </v-dialog>
       </v-row>
+
+<v-row justify="center">
+        <v-dialog v-model="dialog2" width="600px">
+          <v-card>
+            <v-card-title>
+              <span class="text-h5">CEFR C2</span>
+            </v-card-title>
+            <v-card-actions>
+              <v-spacer></v-spacer>
+              <v-btn color="green darken-1" text @click="dialog2 = false">
+                 {{$vuetify.lang.locales[$vuetify.lang.current].controls.close}}
+              </v-btn>
+            </v-card-actions>
+            <v-card-text>
+              <v-carousel :show-arrows="false">
+                <v-carousel-item
+                  ><v-img
+                    src="./../assets/daad_C2_1_2.jpg"
+                    height="100%"
+                    backgroundsize="cover"
+                    contain
+                  ></v-img
+                ></v-carousel-item>
+                  <v-carousel-item
+                  ><v-img
+                    src="./../assets/daad_C2_2_2.jpg"
+                    height="100%"
+                    backgroundsize="cover"
+                    contain
+                  ></v-img
+                ></v-carousel-item>
+              </v-carousel>
+            </v-card-text>
+          </v-card>
+        </v-dialog>
+      </v-row>
+
     </v-container>
   </div>
 </template>
@@ -103,9 +136,8 @@ export default {
   data() {
     return {
       
-      dialog: false,
-      document_name: "",
-      links: [],
+      dialog1: false,
+      dialog2: false
     };
   },
 };
