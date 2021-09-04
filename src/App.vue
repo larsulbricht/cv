@@ -13,7 +13,7 @@
           <h1
             id="black-text"
             :class="{ 'text-center': this.$vuetify.breakpoint.xs }"
-            class="text-h1 ml-6"
+            class="text-h1 mt-10"
           >
             Lars <br v-if="!this.$vuetify.breakpoint.xs" />
             Ulbricht
