@@ -4,7 +4,7 @@
       ><v-icon class="mr-4">mdi-coffee </v-icon>{{$vuetify.lang.locales[$vuetify.lang.current].hobbys.title}}</v-banner
     >
     <v-container class="d-flex flex-wrap justify-center justify-md-space-around">
-      <v-card class="mb-4 ml-md-4 mt-4" min-width="250px" width="30%">
+      <v-card class="mb-4 mt-4 hobby-box" min-width="250px">
         <v-spacer></v-spacer>
         <v-banner two-line>
           <v-avatar slot="icon" color="#f7650a" size="40">
@@ -24,7 +24,7 @@
         </v-container>
       </v-card>
 
-      <v-card class="mb-4 ml-md-4 mt-4" min-width="250px" width="30%">
+      <v-card class="mb-4 mt-4 hobby-box" min-width="250px">
         <v-spacer></v-spacer>
         <v-banner two-line>
           <v-avatar slot="icon" color="#f7650a" size="40">
@@ -44,7 +44,7 @@
         </v-container>
       </v-card>
 
-      <v-card class="mb-4 ml-md-4 mt-4" min-width="250px" width="30%">
+      <v-card class="mb-4 mt-4 hobby-box" min-width="250px">
         <v-spacer></v-spacer>
         <v-banner two-line>
           <v-avatar slot="icon" color="#f7650a" size="40">

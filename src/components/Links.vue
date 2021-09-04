@@ -3,7 +3,7 @@
      <v-banner elevation="3" single-line
           id='links_head'><v-icon class="mr-4">mdi-link </v-icon>Links</v-banner
         >
- <v-list shaped class="mt-4 mb-4">
+ <v-list shaped class="mt-4 mb-4 ml-4 mr-4">
       <v-list-item-group>
         <v-list-item target="_blank" href="https://www.sueddeutsche.de/karriere/weiterbildung-pauken-und-plaudern-1.4005790">
           <v-list-item-icon>
