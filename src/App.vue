@@ -30,7 +30,7 @@
   
 
       <v-card class="ml-0 mt-0">
-        <v-img class="parallax pt-5 " height="100vh">
+        <v-img class="parallax pt-5 ">
 
           <div class="name-title-box">
           <h1
@@ -105,15 +105,17 @@ import Links from "./components/Links.vue";
 import Contact from "./components/Contact.vue";
 
 
-/*
-const actualHeight = window.innerHeight;
-const elementHeight = this.$refs.control_height.clientHeight
-
-const barHeight = elementHeight - actualHeight;
-
-console.log(barHeight);*/
+// First we get the viewport height and we multiple it by 1% to get a value for a vh unit
+let vh = window.innerHeight * 0.01;
+// Then we set the value in the --vh custom property to the root of the document
+document.documentElement.style.setProperty('--vh', `${vh}px`);
 
 
+window.addEventListener('resize', () => {
+  // We execute the same script as before
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+});
 
 export default {
   title: "Lars Ulbricht - Homepage",
