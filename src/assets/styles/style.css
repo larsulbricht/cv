@@ -20,7 +20,7 @@ body {
 }
 
 .title-name{
-  
+  position: absolute;
 }
 
 .system-icon {
