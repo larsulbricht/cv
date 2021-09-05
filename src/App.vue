@@ -30,6 +30,7 @@
   
       <v-card class="ml-0 mt-0">
         <v-img class="parallax pt-5 " height="100vh" >
+          <div class="name-title-box">
           <h1
             id="black-text"
             :class="{ 'text-center': this.$vuetify.breakpoint.xs }"
@@ -38,6 +39,7 @@
             Lars <br v-if="!this.$vuetify.breakpoint.xs" />
             Ulbricht
           </h1>
+          </div>
           <div v-if="this.scrolled == 0" id="down_arrow">
             <v-icon
               @click="$vuetify.goTo('#about_head')"

@@ -20,6 +20,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  
 }
 
 #black-text {
@@ -43,6 +44,10 @@
 
 #about_me_text {
   position: sticky !important;
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
   bottom: 200px !important;
   z-index: 2 !important;
   mix-blend-mode: difference;
@@ -84,12 +89,16 @@
 @media (max-width: 930px) {
 
   #down_arrow {
-    bottom: 9vh;
+    top: 37%;
   }
 
 .name-title {
   position: relative;
-  top: 3vh;
+  top: 3%;
+}
+
+.name-title-box {
+
 }
 
   .hobby-box {
@@ -136,18 +145,17 @@
 
   .v-icon.chevron.mdi-chevron-down.black--text{
     left:50% !important;
-    top: 20%;
   }
 
   .chevron.bottom:before {
     left: 25vw;
-    top: -50vh;
+    top: -50%;
   }
 
   #about_me_text {
     font-size: 6vw;
     font-weight: 50;
-    bottom: 56vh !important;
+    bottom: 56% !important;
     padding-left: 0rem;
     padding-right:0rem;
     line-height: 0rem;
