@@ -1,3 +1,4 @@
+
 html {
   height: -webkit-fill-available;
 }
@@ -11,6 +12,7 @@ html {
 body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
+
 }
 
 .hobby-box {
@@ -35,7 +37,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
+  min-height: 100%;
 }
 
 #black-text {
@@ -108,11 +110,13 @@ body {
   }
 
 .name-title {
+
   margin-top: 27%
+
 }
 
 .name-title-box {
-
+  margin-top: 26%;
 }
 
   .hobby-box {
@@ -167,6 +171,7 @@ body {
   }
 
   #about_me_text {
+    padding-top: 10%;
     font-size: 6vw;
     font-weight: 50;
     bottom: 80% !important;
