@@ -28,8 +28,8 @@
         <h1 class="text-h1 ml-6 black-text">Lars <br> Ulbricht</h1>
       </v-img>-->
   
-      <v-card class="ml-0 mt-0">
-        <v-img class="parallax pt-5 " height="100vh" >
+      <v-card class="ml-0 mt-0 title-box">
+        <v-img class="parallax pt-5 ">
           <div class="name-title-box">
           <h1
             id="black-text"
