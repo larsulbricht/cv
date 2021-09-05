@@ -6,6 +6,10 @@
   position:absolute;
 }
 
+.system-icon {
+  z-index: 4
+}
+
 .parallax {
   /* Set a specific height */
   background-image: url("../sitefoto-left.jpg");
@@ -78,6 +82,16 @@
 }
 
 @media (max-width: 930px) {
+
+  #down_arrow {
+    bottom: 9vh;
+  }
+
+.name-title {
+  position: relative;
+  top: 3vh;
+}
+
   .hobby-box {
     width: 100%;
   }
@@ -120,6 +134,11 @@
     width: 0.3em;
   }
 
+  .v-icon.chevron.mdi-chevron-down.black--text{
+    left:50% !important;
+    top: 20%;
+  }
+
   .chevron.bottom:before {
     left: 25vw;
     top: -50vh;
@@ -128,8 +147,9 @@
   #about_me_text {
     font-size: 6vw;
     font-weight: 50;
-    bottom: 57vh !important;
+    bottom: 56vh !important;
     padding-left: 0rem;
+    padding-right:0rem;
     line-height: 0rem;
   }
   .parallax {
