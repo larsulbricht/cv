@@ -4,7 +4,7 @@
   height="55"
   class="pl-0"
   v-if="this.$vuetify.breakpoint.xs" fixed app
-><v-app-bar-nav-icon class="pl-5" @click.stop="drawer = !drawer"></v-app-bar-nav-icon> <v-card-text class="text-center text--white title-name">
+><v-app-bar-nav-icon class="pl-5 system-icon" @click.stop="drawer = !drawer"></v-app-bar-nav-icon> <v-card-text class="text-center text--white title-name">
   Lars Ulbricht
 </v-card-text>  </v-system-bar>
     <v-navigation-drawer
