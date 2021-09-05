@@ -1,9 +1,24 @@
+html, body {margin:0;padding:0;height:100%;}
+
+#lars-homepage {
+  height: 100%;
+  overflow: auto;
+}
+
+.v-main{
+  height: 100% !important
+}
+
+.title-box {
+  height: 100% !important;
+}
+
 .hobby-box {
   width: 30%;
 }
 
 .title-name{
-  position:absolute;
+  
 }
 
 .system-icon {
@@ -20,7 +35,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  
+  min-height: 100%;
 }
 
 #black-text {
@@ -94,11 +109,10 @@
 
 .name-title {
   position: relative;
-  top: 3%;
 }
 
 .name-title-box {
-
+  margin-top: 26%;
 }
 
   .hobby-box {
@@ -153,9 +167,10 @@
   }
 
   #about_me_text {
+    padding-top: 10%;
     font-size: 6vw;
     font-weight: 50;
-    bottom: 56% !important;
+    bottom: 80% !important;
     padding-left: 0rem;
     padding-right:0rem;
     line-height: 0rem;
