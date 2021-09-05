@@ -72,7 +72,7 @@
         the boring part.
         <v-icon :class="{
           'mr-2': this.$vuetify.breakpoint.sm,
-        }" class="pb-8 quote-icon">mdi-format-quote-close</v-icon>
+        }" class="pb-8 quote-icon" >mdi-format-quote-close</v-icon>
       </v-card-text>
   
 
