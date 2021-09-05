@@ -1,16 +1,18 @@
-html, body {margin:0;padding:0;height:100%;}
 
-#lars-homepage {
-  height: 100%;
-  overflow: auto;
+html {
+  height: -webkit-fill-available;
 }
 
-.v-main{
-  height: 100% !important
+#control-height {
+  height: 100vh;
+  width: 0;
+  position: absolute;
 }
 
-.title-box {
-  height: 100% !important;
+body {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+
 }
 
 .hobby-box {
@@ -108,7 +110,9 @@ html, body {margin:0;padding:0;height:100%;}
   }
 
 .name-title {
-  position: relative;
+
+  margin-top: 27%
+
 }
 
 .name-title-box {

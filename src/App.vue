@@ -1,6 +1,6 @@
 <template>
-
   <v-app id="lars-homepage">
+    <div id="control-height" ref="control_height"></div>
     <side-navigation></side-navigation>
      <div id="lang_control" class="d-flex justify-end">
         <v-btn
@@ -102,6 +102,17 @@ import Certificate from "./components/Certificate.vue";
 import Links from "./components/Links.vue";
 import Contact from "./components/Contact.vue";
 
+
+/*
+const actualHeight = window.innerHeight;
+const elementHeight = this.$refs.control_height.clientHeight
+
+const barHeight = elementHeight - actualHeight;
+
+console.log(barHeight);*/
+
+
+
 export default {
   title: "Lars Ulbricht - Homepage",
   name: "Homepage",
@@ -117,6 +128,7 @@ export default {
     Links,
   },
   theme: { dark: true },
+  
   data() {
     return {
       scrolled: 0,
@@ -124,14 +136,20 @@ export default {
   },
   created() {
     window.addEventListener("scroll", this.handleScroll);
+    window.addEventListener("resize", this.resetHeight);
   },
   destroyed() {
     window.removeEventListener("scroll", this.handleScroll);
+    window.removeEventListener("resize", this.resetHeight);
   },
   methods: {
     handleScroll(e) {
       this.scrolled = e.target.documentElement.scrollTop;
     },
+    resetHeight(){
+    // reset the body height to that of the inner browser
+    document.body.style.height = window.innerHeight + "px";
+}
   },
 };
 </script>
