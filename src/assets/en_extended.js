@@ -17,11 +17,24 @@ export default {
       grade: "GPA: 3.9" ,
       degree: "Master of Science",
     },
+    education_kyoto: {
+      name: "Kyoto University",
+      description: "During my master studies I spent one semester abroad at the Kyoto University.",
+      class: "MBA" ,
+      degree:"Exchange Semester",
+    },
     education_bachelor: {
       name: "Technical University of Munich",
       description: "Management and Technology (B.Sc.) at the TU Munich with major in Finance and Informatics.",
       grade: "GPA: 3.3" ,
       degree:"Bachelor of Science",
+    },
+    education_osaka: {
+      name: "Osaka University",
+      description: "During my bachelor studies I spent one semester abroad at the Osaka University.",
+      circle: "Running Club" ,
+      class: "Faculty of Engineering Science",
+      degree:"Exchange Semester",
     },
     education_school: {
       name: "BBZ Norderstedt",

@@ -14,15 +14,28 @@ export default {
     title: "学歴",
     education_master: {
       name: "ミュンヘン工科大学",
-      description: "ミュンヘン工科大学で。。。",
+      description: "ミュンヘン工科大学で理系分野と経営分野の両方を並行して学んでいました。 理系分野ではプログラミングなどの情報学を、経営分野ではファイナンスと会計を専攻していました。",
       grade: "GPA: 3.9" ,
       degree: "修士",
     },
+    education_kyoto: {
+      name: "京都大学",
+      description: "京都大学にて半年間のMBA留学を経験しました。",
+      class: "MBA" ,
+      degree:"留学",
+    },
     education_bachelor: {
       name: "ミュンヘン工科大学",
-      description: "ミュンヘン工科大学で。。。",
+      description: "ミュンヘン工科大学で理系分野と経営分野の両方を並行して学んでいました。 理系分野ではプログラミングなどの情報学を、経営分野ではファイナンスと会計を専攻していました。",
       grade: "GPA: 3.3" ,
       degree:"学士",
+    },
+    education_osaka: {
+      name: "大阪大学",
+      description: "大阪大学の基礎工学部で半年間の留学を経験しました。",
+      circle: "駅伝同好会" ,
+      class: "基礎工学部",
+      degree:"留学",
     },
     education_school: {
       name: "BBZ Norderstedt",
