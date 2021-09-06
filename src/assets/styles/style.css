@@ -38,7 +38,6 @@ body {
   -o-background-size: cover;
   background-size: cover;
   height: 100vh;
-  height: calc(var(--vh, 1vh) * 100);
 }
 
 #black-text {
@@ -66,7 +65,7 @@ body {
   position: -moz-sticky;
   position: -ms-sticky;
   position: -o-sticky;
-  bottom: 200px !important;
+  bottom: 21% !important;
   z-index: 2 !important;
   mix-blend-mode: difference;
   color: white;
@@ -99,14 +98,28 @@ body {
 }
 
 #down_arrow {
-  left: 15%;
+  left: 213px;
   position: absolute;
   bottom: 12%;
 }
 
-@media (max-width: 930px) {
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
+@media (max-width: 961px) {
+#about_me_text {
+  bottom: 15% !important;
+}
+}
+
+@media (max-width: 641px) {
 
   #down_arrow {
+    left: 16%;
     top: 37%;
   }
 
@@ -181,7 +194,7 @@ body {
   }
   .parallax {
     /* Set a specific height */
-
+    height: calc(var(--vh, 1vh) * 100);
     background-image: url("../sitefoto-top.jpg");
     background-attachment: scroll;
     background-size: cover;
@@ -196,10 +209,6 @@ body {
     font-weight: 100 !important;
     line-height: 16vw;
   }
-}
-
-@media (max-width: 500px) {
-  /* Bei jedem größeren Monitor kommen neue Regeln hinzu */
 }
 
 @media (min-width: 500px) and (max-width: 930px) {

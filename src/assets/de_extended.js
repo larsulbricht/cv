@@ -18,12 +18,25 @@ export default {
       grade: "Notenschnitt: 1,1",
       degree: "Master of Science",
     },
+    education_kyoto: {
+      name: "Universität Kyoto",
+      description: "Während meines Masterstudiums habe ich ein Semester an der Kyoto Universität in Japan studiert.",
+      class: "MBA" ,
+      degree:"Auslandssemester",
+    },
     education_bachelor: {
       name: "Technische Universität München",
       description:
         "Management and Technology (B.Sc.) an der TU München mit Finance- und Informatikspezialisierung.",
       grade: "Notenschnitt: 1,7",
       degree: "Bachelor of Science",
+    },
+    education_osaka: {
+      name: "Universität Osaka",
+      description: "Während meines Bachelorstudiums habe ich ein Semester an der Osaka Universität in Japan studiert.",
+      circle: "Ekiden-Club" ,
+      class: "Fakultät für Ingenieurwissenschaften",
+      degree:"Auslandssemester",
     },
     education_school: {
       name: "BBZ Norderstedt",
