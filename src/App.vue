@@ -147,7 +147,6 @@ export default {
   },
   mounted() {
     var userLang = navigator.language || navigator.userLanguage;
-    console.log(userLang);
     if (userLang.includes("de")) {
       this.$vuetify.lang.current = "de";
     } else if (userLang.includes("en")) {
