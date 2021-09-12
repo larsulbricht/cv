@@ -3,7 +3,7 @@
     <v-system-bar
   height="55"
   class="pl-0"
-  v-if="this.$vuetify.breakpoint.xs" fixed app
+  v-if="this.$vuetify.breakpoint.smAndDown" fixed app
 ><v-app-bar-nav-icon class="pl-5 system-icon" @click.stop="drawer = !drawer"></v-app-bar-nav-icon> <v-card-text class="text-center text--white title-name">
   Lars Ulbricht
 </v-card-text>  </v-system-bar>
@@ -11,9 +11,9 @@
     v-model="drawer"
       app
       class="pt-4 drawer-index"
-      :mini-variant="!this.$vuetify.breakpoint.xs"
-      :permanent="!this.$vuetify.breakpoint.xs"
-      :expand-on-hover="!this.$vuetify.breakpoint.xs"
+      :mini-variant="!this.$vuetify.breakpoint.smAndDown"
+      :permanent="!this.$vuetify.breakpoint.smAndDown"
+      :expand-on-hover="!this.$vuetify.breakpoint.smAndDown"
     >
       <v-list>
         <v-list-item class="px-2">

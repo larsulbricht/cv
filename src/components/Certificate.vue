@@ -1,7 +1,7 @@
 <template>
   <div>
     <v-banner elevation="3" single-line id="certificate_head"
-      ><v-icon class="mr-4">mdi-chevron-triple-up</v-icon>Zertifikate</v-banner
+      ><v-icon class="mr-4">mdi-chevron-triple-up</v-icon> {{$vuetify.lang.locales[$vuetify.lang.current].certifications.title}}</v-banner
     >
     <v-container class="d-flex flex-wrap justify-center justify-md-space-around">
       <v-card class="mt-4 ml-md-4 hobby-box" min-width="250px">

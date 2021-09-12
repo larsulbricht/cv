@@ -5,7 +5,11 @@ export default {
 
   name: "Lars Ulbricht",
   profession: "ITコンサルタント",
-  motto: "ITで未来を創造する。",
+  motto: {
+    title: "モットー",
+    content_1_2: "Automate",
+    content_2_2: "the boring part.",
+  },
   aboutme:{
     title: "まとめ",
     content: '先進ITテクノロジーの進化で社会に価値を生み出すことは私の野望です。今までの経験を通じて、社会や会社が抱える多数の問題はITの力で解決できると考えます。ITテクノロジーには、幅広いユースケースに提供できる潜在力があるのにも関わらず、社会や会社に対しての拡散速度がまだ遅いと感じています。私はITテクノロジーの力を十分に社会に拡散し、価値を生みだしたいです。今の社会の問題とデジタル社会における課題解決に創作的なソリューションを生み出すことが私の目標です。'
@@ -14,32 +18,32 @@ export default {
     title: "学歴",
     education_master: {
       name: "ミュンヘン工科大学",
-      description: "ミュンヘン工科大学で理系分野と経営分野の両方を並行して学んでいました。 理系分野ではプログラミングなどの情報学を、経営分野ではファイナンスと会計を専攻していました。",
+      description: "経営学と情報学を専攻・卒業",
       grade: "GPA: 3.9" ,
       degree: "修士",
     },
     education_kyoto: {
       name: "京都大学",
-      description: "京都大学にて半年間のMBA留学を経験しました。",
+      description: "京都大学にて半年間のMBA留学。",
       class: "MBA" ,
       degree:"留学",
     },
     education_bachelor: {
       name: "ミュンヘン工科大学",
-      description: "ミュンヘン工科大学で理系分野と経営分野の両方を並行して学んでいました。 理系分野ではプログラミングなどの情報学を、経営分野ではファイナンスと会計を専攻していました。",
+      description: "経営学と情報学を専攻・卒業",
       grade: "GPA: 3.3" ,
       degree:"学士",
     },
     education_osaka: {
       name: "大阪大学",
-      description: "大阪大学の基礎工学部で半年間の留学を経験しました。",
+      description: "基礎工学部にて半年間留学。",
       circle: "駅伝同好会" ,
       class: "基礎工学部",
       degree:"留学",
     },
     education_school: {
       name: "BBZ Norderstedt",
-      description: "BBZ Norderstedtで。。。",
+      description: "大学入学資格取得・卒業",
       grade: "GPA: 3.0" ,
       degree:"大学入学資格",
     },
@@ -85,7 +89,7 @@ export default {
     title:"リンク",
   },
   hobbys:{
-    title:"興味",
+    title:"関心",
     japan:{
       name:"日本",
       content:"私は2012年に日本語の学習を開始し、その後、日本語の最高資格である「JLPT N1」を取得しました。2012年以降、何度か日本に行ってきました。その中には、日本での2学期分も含まれています。大阪大学と京都大学で学期ごとに留学してきました。",
@@ -103,7 +107,7 @@ export default {
     }
   },
   contact: {
-    title: "連絡先"
+    title: "連絡先",
   },
   skills:{
     title:"能力",
