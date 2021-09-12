@@ -15,7 +15,7 @@ if (userLang.includes("de")) {
 } else if (userLang.includes("en")) {
   userLang = "en";
 } else if (userLang.includes("ja")) {
-  userLang == "ja";
+  userLang = "ja";
 } else {
   userLang = "en";
 }
