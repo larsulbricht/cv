@@ -1,7 +1,9 @@
 <template>
   <div>
     <v-banner elevation="3" single-line id="skills_head"
-      ><v-icon class="mr-4">mdi-head-cog</v-icon>Skills</v-banner
+      ><v-icon class="mr-4">mdi-head-cog</v-icon>{{
+            $vuetify.lang.locales[$vuetify.lang.current].skills.title
+          }}</v-banner
     >
     <v-container class="d-flex flex-wrap flex-column">
       <v-expansion-panels multiple v-model="panel">

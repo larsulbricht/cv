@@ -5,6 +5,11 @@ export default {
 
   name: "Lars Ulbricht",
   profession: "Consultant",
+  motto: {
+    title: "Motto",
+    content_1_2: "Automate",
+    content_2_2: "the boring part.",
+  },
   aboutme: {
     title: "Zusammenfassung",
     content: 'Mein Ziel ist es, mein kombiniertes Finanz- und IT-Wissen zu nutzen, um mein Ziel zu erreichen, die IT-Technologie zur Verbesserung der Produktivität und zur Schaffung von Werten für Kunden und die Gesellschaft einzusetzen. Ich bin der Meinung, dass langweilige und sich wiederholende Aufgaben von Maschinen erledigt werden sollten, damit sich die Menschen auf das konzentrieren können, was sie am besten können, nämlich kreative Lösungen und komplexe Problemlösungen.'
@@ -100,7 +105,7 @@ export default {
     }
   },
   contact: {
-    title: "Kontakt"
+    title: "Kontakt",
   },
   controls: {
     close: "Schließen",
