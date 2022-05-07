@@ -3,8 +3,8 @@
     <v-banner elevation="3" single-line id="contact_head"
       ><v-icon class="mr-4">mdi-card-account-phone </v-icon> {{$vuetify.lang.locales[$vuetify.lang.current].contact.title}}</v-banner
     >
-
-    <v-responsive :aspect-ratio="1.545 / 1" class="mt-4"  max-width="800px">
+<div class="d-flex flex-wrap justify-center">
+    <v-responsive :aspect-ratio="1.545 / 1" class="mt-4 "  max-width="800px">
       <v-card elevation="7" outlined tile min-width="100%" min-height="300px">
         <v-list-item three-line>
           <v-list-item-content>
@@ -64,6 +64,7 @@
         </v-card-actions>
       </v-card>
     </v-responsive>
+    </div>
   </div>
 </template>
 

@@ -110,7 +110,7 @@ body {
 @media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
 @media (min-width:1281px) { /* hi-res laptops and desktops */ }
 
-@media (max-width: 960px) {
+@media (max-width: 960px) and (orientation:portrait) {
 #about_me_text {
   bottom: 15% !important;
   margin-left:0px !important;
@@ -162,7 +162,7 @@ body {
 }
 
 .name-title-box {
-  margin-top: 26%;
+  margin-top: 0%;
 }
 
   .hobby-box {
@@ -186,7 +186,7 @@ body {
 
 }
 
-@media (max-width: 641px) {
+@media (max-width: 641px) and (orientation:portrait) {
 
   #down_arrow {
     left: 16%;
@@ -280,3 +280,102 @@ body {
     line-height: 16vw;
   }
 }
+
+
+@media (max-width: 1000px) and (orientation:landscape) {
+
+  #down_arrow {
+    left: 16%;
+    top: 37%;
+  }
+
+.name-title {
+
+  margin-top: 27%
+
+}
+
+.name-title-box {
+  margin-top: 26%;
+}
+
+  .hobby-box {
+    width: 100%;
+  }
+
+  .v-subheader {
+    /* align-items: center; */
+    /* display: flex; */
+    /* height: 48px; */
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin-left: 15px;
+    /* padding: 0 16px 0 16px; */
+  }
+
+
+  .quote-icon {
+    line-height: 1rem !important;
+  }
+
+  .chevron::before {
+    border-width: 0.03em 0.03em 0 0;
+    display: inline-block;
+    height: 0.3em;
+    left: 0.15em;
+    position: relative;
+    top: 0.15em;
+    transform: rotate(-45deg);
+    vertical-align: top;
+    width: 0.3em;
+  }
+
+  .v-icon.chevron.mdi-chevron-down.black--text{
+    left:50% !important;
+  }
+
+  .chevron.bottom:before {
+    left: 32vw;
+    top: -50%;
+  }
+
+  #about_me_text {
+    font-size: 6vw;
+    margin-left:0 !important;
+    padding-left: 0 !important;
+    font-weight: 50;
+    bottom: 128vw !important;
+    line-height: 0rem;
+
+  }
+  .parallax {
+    /* Set a specific height */
+    height: calc(var(--vh, 1vh) * 100);
+    background-image: url("../sitefoto-left.jpg");
+    background-attachment: scroll;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+
+  #black-text {
+    margin-left:0 !important;
+    padding-left: 0 !important;
+    font-size: 3rem !important;
+    background-color: none !important;
+    text-shadow: 1px 1px #8f8484;
+    font-weight: 100 !important;
+    line-height: 16vw;
+  }
+
+
+  .v-timeline-item__dot {
+    border-radius: 0%;
+  }
+
+  .v-timeline-item__dot {
+    border-radius: 0%;
+  }
+
+}
+
