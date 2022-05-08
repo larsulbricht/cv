@@ -105,7 +105,7 @@ export default {
     },
     invest: {
       name:"Investing",
-      content:"Also imitated by my studies I have great interest and fun in investing. I count myself as a value investor and am particularly interested in long-term investments in profitable companies. When I don't have time to analyze stocks, I also like to invest in ETFs and trust in high diversification and a rising overall market. Due to my development experience in the blockchain space, I have recently started trying myself in crypto investments.",
+      content:"Also initiated by my studies I have great interest and fun in investing. I count myself as a value investor and am particularly interested in long-term investments in profitable companies. When I don't have time to analyze stocks, I also like to invest in ETFs and trust in high diversification and a rising overall market. Due to my development experience in the blockchain space, I have recently started trying myself in crypto investments.",
       tags: ["ETFs", "Value Investing", "Long-term investments", "New: Crypto"]
     }
   },

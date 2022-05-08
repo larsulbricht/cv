@@ -7,7 +7,7 @@
       <v-card class="mb-4 mt-4 hobby-box" min-width="250px">
         <v-spacer></v-spacer>
         <v-banner two-line>
-          <v-avatar slot="icon" color="#f7650a" size="40">
+          <v-avatar slot="icon" :color="config.color.main" size="40">
             <v-icon icon="mdi-earth" color="white">
               mdi-earth
             </v-icon>
@@ -18,7 +18,7 @@
           {{$vuetify.lang.locales[$vuetify.lang.current].hobbys.japan.content}}
         </v-banner>
         <v-container class="ml-2 d-flex flex-wrap">
-         <v-chip v-for="item in $vuetify.lang.locales[$vuetify.lang.current].hobbys.japan.tags" :key="item.message"  class="white--text ml-2 mt-2" color="#13300f" label>
+         <v-chip v-for="item in $vuetify.lang.locales[$vuetify.lang.current].hobbys.japan.tags" :key="item.message"  class="white--text ml-2 mt-2" :color="config.color.secondary" label>
             {{item}}
           </v-chip>
         </v-container>
@@ -27,7 +27,7 @@
       <v-card class="mb-4 mt-4 hobby-box" min-width="250px">
         <v-spacer></v-spacer>
         <v-banner two-line>
-          <v-avatar slot="icon" color="#f7650a" size="40">
+          <v-avatar slot="icon" :color="config.color.main" size="40">
             <v-icon icon="mdi-code-tags" color="white">
               mdi-code-tags
             </v-icon>
@@ -38,7 +38,7 @@
            {{$vuetify.lang.locales[$vuetify.lang.current].hobbys.program.content}}
         </v-banner>
         <v-container class="ml-2 d-flex flex-wrap">
-       <v-chip v-for="item in $vuetify.lang.locales[$vuetify.lang.current].hobbys.program.tags" :key="item.message"  class="white--text ml-2 mt-2" color="#13300f" label>
+       <v-chip v-for="item in $vuetify.lang.locales[$vuetify.lang.current].hobbys.program.tags" :key="item.message"  class="white--text ml-2 mt-2" :color="config.color.secondary" label>
             {{item}}
           </v-chip>
         </v-container>
@@ -47,7 +47,7 @@
       <v-card class="mb-4 mt-4 hobby-box" min-width="250px">
         <v-spacer></v-spacer>
         <v-banner two-line>
-          <v-avatar slot="icon" color="#f7650a" size="40">
+          <v-avatar slot="icon" :color="config.color.main" size="40">
             <v-icon icon="mdi-finance" color="white">
               mdi-finance
             </v-icon>
@@ -59,7 +59,7 @@
         </v-banner>
 
         <v-container class="ml-2 d-flex flex-wrap">
-          <v-chip v-for="item in $vuetify.lang.locales[$vuetify.lang.current].hobbys.invest.tags" :key="item.message"  class="white--text ml-2 mt-2" color="#13300f" label>
+          <v-chip v-for="item in $vuetify.lang.locales[$vuetify.lang.current].hobbys.invest.tags" :key="item.message"  class="white--text ml-2 mt-2" :color="config.color.secondary" label>
             {{item}}
           </v-chip>
         </v-container>
@@ -69,7 +69,13 @@
 </template>
 
 <script>
+import config from './../assets/config.json';
 export default {
   name: "Hobby",
+          data() {
+        return {
+            config
+        };
+    }
 };
 </script>
