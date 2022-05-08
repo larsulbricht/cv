@@ -62,6 +62,25 @@
         </a>
       </v-card>
 
+            <v-card class="mt-4 ml-md-4 hobby-box" min-width="250px">
+        <v-card-title primary-title>
+          {{$vuetify.lang.locales[$vuetify.lang.current].certifications.psm.name}}
+        </v-card-title>
+
+        <a
+          target="_blank"
+          href="https://www.credly.com/badges/8a3337c1-0d0d-4f58-956e-4ad152542f4b/public_url"
+        >
+          <v-img
+            class="mb-4"
+            contain
+            max-height="200px"
+            src="./../assets/BADGES_FINAL_PSM-I_600.png"
+          >
+          </v-img>
+        </a>
+      </v-card>
+
       <v-row justify="center">
         <v-dialog v-model="dialog1" width="600px">
           <v-card>

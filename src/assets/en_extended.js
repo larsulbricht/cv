@@ -7,12 +7,12 @@ export default {
   profession: "Consultant",
   motto: {
     title: "Motto",
-    content_1_2: "Automate",
-    content_2_2: "the boring part.",
+    content_1_2: "The future is",
+    content_2_2: "decentral.",
   },
   aboutme:{
     title: "About Me",
-    content: 'My ambition is to use my combined financial and IT knowledge to accomplish my goal of utilizing IT technology to improve productivity and to create value for customers and the society. I believe that boring and repetitive tasks should be performed by machines such that human beings can concentrate on the things they are best at i.e. creativity and complex problem solving.'
+    content: 'I currently work at Deloitte as a consultant where I mainly deal with the implementation of innovative technologies in the financial sector. I have a particular passion for the blockchain technology. Currently, I am particularly interested in the DeFi area. I have also gained some experience in the development of smart contracts and frontends for them. In addition, I also have project experience in the regulatory environment related to blockchain technology. For example, I helped a large custodian to derive requirements from the eWpG (Electronic Securities Act) for fund units and to develop a Target Operating Model. I am excited to see where my journey in the world of the blockchain technology will take me next...'
   },
   education: {
     title: "Education",
@@ -79,6 +79,9 @@ export default {
     english_c2: {
       name: "CEFR English C2",
 
+    },
+    psm: {
+      name: "Professional Scrum Master™ I (PSM I)",
     },    
   },
   controls: {
