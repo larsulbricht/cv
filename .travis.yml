@@ -6,6 +6,16 @@ cache: npm
 
 script: npm run build
 
+sudo: required
+before_install:
+  - npm install -g node-gyp
+addons:
+  apt:
+    sources:
+    - ubuntu-toolchain-r-test
+    packages:
+    - g++-5
+
 deploy:
  provider: pages
  target_branch: production-branch
