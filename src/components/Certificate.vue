@@ -3,7 +3,7 @@
     <v-banner elevation="3" single-line id="certificate_head"
       ><v-icon class="mr-4">mdi-chevron-triple-up</v-icon> {{$vuetify.lang.locales[$vuetify.lang.current].certifications.title}}</v-banner
     >
-    <v-container class="d-flex flex-wrap justify-md-space-around">
+    <v-container class="d-flex flex-wrap">
       <v-card class="mt-4 ml-md-4 hobby-box" min-width="250px">
         <v-card-title primary-title>
            {{$vuetify.lang.locales[$vuetify.lang.current].certifications.aws1.name}}

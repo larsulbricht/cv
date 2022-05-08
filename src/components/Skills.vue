@@ -43,7 +43,7 @@
             }}</v-expansion-panel-header
           >
           <v-expansion-panel-content>
-            <v-container class="d-flex flex-wrap justify-center">
+            <v-container class="d-flex flex-wrap">
               <skill-box
                 :img_src="require('./../assets/nodejs.svg')"
                 :score="4"
@@ -70,7 +70,7 @@
             }}</v-expansion-panel-header
           >
           <v-expansion-panel-content>
-            <v-container class="d-flex flex-wrap justify-center">
+            <v-container class="d-flex flex-wrap">
               <skill-box
                 :img_src="require('./../assets/solidity.png')"
                 :score="4"
@@ -101,7 +101,7 @@
           }}</v-expansion-panel-header>
 
           <v-expansion-panel-content>
-            <v-container class="d-flex flex-wrap justify-center">
+            <v-container class="d-flex flex-wrap">
               <skill-box
                 :img_src="require('./../assets/python.svg')"
                 :score="4"
@@ -121,7 +121,7 @@
               .name
           }}</v-expansion-panel-header>
           <v-expansion-panel-content>
-            <v-container class="d-flex flex-wrap justify-center">
+            <v-container class="d-flex flex-wrap">
               <skill-box
                 :img_src="
                   require('./../assets/ui_path_Logo_default_orange.png')
