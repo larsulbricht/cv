@@ -4,7 +4,7 @@
           id='education_head' ><v-icon class="mr-4">mdi-school </v-icon> {{$vuetify.lang.locales[$vuetify.lang.current].education.title}}</v-banner
         >
         <v-timeline :dense="$vuetify.breakpoint.mobile">
-          <v-timeline-item  color="#f7650a">
+          <v-timeline-item  :color="config.color.main">
             <span slot="opposite">
               04/2019 – 03/2021 
             </span>
@@ -17,21 +17,21 @@
               </v-card-text>
                              <v-chip
               class="white--text mb-4 ml-4"
-              color="#f7650a"
+              :color="config.color.main"
               label
             >
                {{$vuetify.lang.locales[$vuetify.lang.current].education.education_master.grade}}
             </v-chip>
             <v-chip
               class="white--text mb-4 ml-4"
-              color="#13300f"
+              :color="config.color.secondary"
               label
             >
                {{$vuetify.lang.locales[$vuetify.lang.current].education.education_master.degree}}
             </v-chip>
             </v-card></v-timeline-item
           >
-           <v-timeline-item  color="#13300f">
+           <v-timeline-item  :color="config.color.secondary">
             <span slot="opposite">
               09/2019 – 03/2020 
             </span>
@@ -44,21 +44,21 @@
               </v-card-text>
                              <v-chip
               class="white--text mb-4 ml-4"
-              color="#f7650a"
+              :color="config.color.main"
               label
             >
                {{$vuetify.lang.locales[$vuetify.lang.current].education.education_kyoto.class}}
             </v-chip>
             <v-chip
               class="white--text mb-4 ml-4"
-              color="#13300f"
+              :color="config.color.secondary"
               label
             >
                {{$vuetify.lang.locales[$vuetify.lang.current].education.education_kyoto.degree}}
             </v-chip>
             </v-card></v-timeline-item
           >
-           <v-timeline-item color="#f7650a">
+           <v-timeline-item :color="config.color.main">
             <span slot="opposite">
               10/2015 – 03/2019 
             </span>
@@ -71,21 +71,21 @@
               </v-card-text>
                  <v-chip
               class="white--text mb-4 ml-4"
-              color="#f7650a"
+              :color="config.color.main"
               label
             >
                {{$vuetify.lang.locales[$vuetify.lang.current].education.education_bachelor.grade}}
             </v-chip>
 <v-chip
               class="white--text mb-4 ml-4"
-              color="#13300f"
+              :color="config.color.secondary"
               label
             >
                {{$vuetify.lang.locales[$vuetify.lang.current].education.education_bachelor.degree}}
             </v-chip>
             </v-card></v-timeline-item
           >
-           <v-timeline-item  color="#13300f">
+           <v-timeline-item  :color="config.color.secondary">
             <span slot="opposite">
               09/2017 – 03/2018 
             </span>
@@ -98,28 +98,28 @@
               </v-card-text>
                               <v-chip
               class="white--text mb-4 ml-4"
-              color="#f7650a"
+              :color="config.color.main"
               label
             >
                {{$vuetify.lang.locales[$vuetify.lang.current].education.education_osaka.class}}
             </v-chip>
                              <v-chip
               class="white--text mb-4 ml-4"
-              color="#f7650a"
+              :color="config.color.main"
               label
             >
                {{$vuetify.lang.locales[$vuetify.lang.current].education.education_osaka.circle}}
             </v-chip>
             <v-chip
               class="white--text mb-4 ml-4"
-              color="#13300f"
+              :color="config.color.secondary"
               label
             >
                {{$vuetify.lang.locales[$vuetify.lang.current].education.education_osaka.degree}}
             </v-chip>
             </v-card></v-timeline-item
           >
-            <v-timeline-item color="#f7650a">
+            <v-timeline-item :color="config.color.main">
             <span slot="opposite">
               bis 07/2014
             </span>
@@ -132,14 +132,14 @@
               </v-card-text>
                            <v-chip
               class="white--text mb-4 ml-4"
-              color="#f7650a"
+              :color="config.color.main"
               label
             >
                {{$vuetify.lang.locales[$vuetify.lang.current].education.education_school.grade}}
             </v-chip>
                <v-chip
               class="white--text mb-4 ml-4"
-              color="#13300f"
+              :color="config.color.secondary"
               label
             >
                 {{$vuetify.lang.locales[$vuetify.lang.current].education.education_school.degree}}
@@ -153,7 +153,14 @@
 
 
         <script>
+
+import config from './../assets/config.json';
   export default {
-    name: 'Education'
+    name: 'Education',
+            data() {
+        return {
+            config
+        };
+    }
   }
 </script>

@@ -103,7 +103,7 @@ export default {
     },
     invest: {
       name:"Investieren",
-      content:"Auch imitiert durch mein Studium habe ich großes Interesse und Spaß am Investieren. Dabei zähle ich mich zu den Value Investoren und bin besonders an langfristigen Anlagen in profitablen Unternehmen interessiert. Wenn ich keine Zeit zum analysieren von Aktien habe, investiere ich auch gerne in ETFs und vertraue auf hohe Diversifikation und einen steigenden Gesamtmarkt. Aufgrund meiner Entwicklungserfahrung im Blockchain-Bereich probiere ich mich seit Neuestem auch im Krypto-Bereich.",
+      content:"Auch initiiert durch mein Studium habe ich großes Interesse und Spaß am Investieren. Dabei zähle ich mich zu den Value Investoren und bin besonders an langfristigen Anlagen in profitablen Unternehmen interessiert. Wenn ich keine Zeit zum analysieren von Aktien habe, investiere ich auch gerne in ETFs und vertraue auf hohe Diversifikation und einen steigenden Gesamtmarkt. Aufgrund meiner Entwicklungserfahrung im Blockchain-Bereich probiere ich mich seit Neuestem auch im Krypto-Bereich.",
       tags: ["ETFs", "Value Investing", "Langfristiges Investieren", "Neu: Krypto"]
     }
   },

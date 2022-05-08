@@ -13,14 +13,6 @@
             <v-list-item-title v-text="'https://www.sueddeutsche.de/karriere/weiterbildung-pauken-und-plaudern-1.4005790'"></v-list-item-title>
           </v-list-item-content>
         </v-list-item>
-        <v-list-item target="_blank" href="https://www.linkedin.com/in/lars-ulbricht/">
-          <v-list-item-icon>
-            <v-icon>mdi-linkedin</v-icon>
-          </v-list-item-icon>
-          <v-list-item-content>
-            <v-list-item-title v-text="'https://www.linkedin.com/in/lars-ulbricht/'"></v-list-item-title>
-          </v-list-item-content>
-        </v-list-item>
       </v-list-item-group>
     </v-list>
  </div>

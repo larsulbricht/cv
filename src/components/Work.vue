@@ -4,7 +4,7 @@
           id='professional_head'><v-icon class="mr-4">mdi-briefcase </v-icon>{{$vuetify.lang.locales[$vuetify.lang.current].professional.title}}</v-banner
         >
                 <v-timeline :dense="$vuetify.breakpoint.mobile">
-          <v-timeline-item color="#f7650a">
+          <v-timeline-item :color="config.color.main">
             <span slot="opposite">
               04/2021 – Jetzt 
             </span>
@@ -17,21 +17,21 @@
               </v-card-text>
                  <v-chip
               class="white--text mb-4 ml-4"
-              color="#13300f"
+              :color="config.color.secondary"
               label
             >
               {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte.title}}
             </v-chip>             
             <v-chip
               class="white--text mb-4 ml-4"
-              color="#13300f"
+              :color="config.color.secondary"
               label
             >
                Consultant
             </v-chip>
             </v-card></v-timeline-item
           >
-           <v-timeline-item color="#f7650a">
+           <v-timeline-item :color="config.color.main">
             <span slot="opposite">
               01/2019 – 06/2019 
             </span>
@@ -45,14 +45,14 @@
                 
 <v-chip
               class="white--text mb-4 ml-4"
-              color="#13300f"
+              :color="config.color.secondary"
               label
             >
                {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_fujitsu.title}}
             </v-chip>
             </v-card></v-timeline-item
           >
-            <v-timeline-item color="#f7650a">
+            <v-timeline-item :color="config.color.main">
             <span slot="opposite">
               03/2017 - 04/2017
             </span>
@@ -65,7 +65,7 @@
               </v-card-text>
                <v-chip
               class="white--text mb-4 ml-4"
-              color="#13300f"
+              :color="config.color.secondary"
               label
             >
                {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_pwc.title}}
@@ -79,7 +79,13 @@
 
 
         <script>
+import config from './../assets/config.json';
   export default {
-    name: 'Work'
+    name: 'Work',
+        data() {
+        return {
+            config
+        };
+    }
   }
 </script>
