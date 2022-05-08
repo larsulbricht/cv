@@ -12,7 +12,7 @@
             $vuetify.lang.locales[$vuetify.lang.current].skills.frontend.name
           }}</v-expansion-panel-header>
           <v-expansion-panel-content>
-            <v-container class="d-flex flex-wrap justify-center">
+            <v-container class="d-flex flex-wrap">
               <skill-box
                 :img_src="require('./../assets/html5.svg')"
                 :score="5"
