@@ -12,7 +12,7 @@
             $vuetify.lang.locales[$vuetify.lang.current].skills.frontend.name
           }}</v-expansion-panel-header>
           <v-expansion-panel-content>
-            <v-container class="d-flex flex-wrap justify-center">
+            <v-container class="d-flex flex-wrap">
               <skill-box
                 :img_src="require('./../assets/html5.svg')"
                 :score="5"
@@ -73,18 +73,23 @@
             <v-container class="d-flex flex-wrap justify-center">
               <skill-box
                 :img_src="require('./../assets/solidity.png')"
-                :score="3"
+                :score="4"
                 subtitle="Solidity"
-              ></skill-box>
-              <skill-box
-                :img_src="require('./../assets/truffle.svg')"
-                :score="2"
-                subtitle="Truffle Suite"
               ></skill-box>
               <skill-box
                 :img_src="require('./../assets/hyperledger-fabric.png')"
                 :score="3"
                 subtitle="Hyperledger Fabric"
+              ></skill-box>
+              <skill-box
+                :img_src="require('./../assets/truffle.svg')"
+                :score="3"
+                subtitle="Truffle Suite"
+              ></skill-box>
+                <skill-box
+                :img_src="require('./../assets/Hardhat-logo.svg')"
+                :score="3"
+                subtitle="Hardhat"
               ></skill-box>
             </v-container>
           </v-expansion-panel-content>

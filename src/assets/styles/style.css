@@ -103,6 +103,14 @@ body {
   bottom: 12%;
 }
 
+.v-timeline-item__dot {
+  border-radius: 0% !important;
+}
+
+.v-timeline-item__inner-dot {
+  border-radius: 0% !important;
+}
+
 @media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
 @media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
 @media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
@@ -366,15 +374,6 @@ body {
     text-shadow: 1px 1px #8f8484;
     font-weight: 100 !important;
     line-height: 16vw;
-  }
-
-
-  .v-timeline-item__dot {
-    border-radius: 0% !important;
-  }
-
-  .v-timeline-item__dot {
-    border-radius: 0% !important;
   }
 
 }
