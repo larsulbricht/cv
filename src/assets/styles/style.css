@@ -370,11 +370,11 @@ body {
 
 
   .v-timeline-item__dot {
-    border-radius: 0%;
+    border-radius: 0% !important;
   }
 
   .v-timeline-item__dot {
-    border-radius: 0%;
+    border-radius: 0% !important;
   }
 
 }

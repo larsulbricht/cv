@@ -12,7 +12,7 @@ export default {
   },
   aboutme:{
     title: "About Me",
-    content: 'I currently work at Deloitte as a consultant where I mainly deal with the implementation of innovative technologies in the financial sector. I have a particular passion for the blockchain technology. Currently, I am particularly interested in the DeFi area. I have also gained some experience in the development of smart contracts and frontends for them. In addition, I also have project experience in the regulatory environment related to blockchain technology. For example, I helped a large custodian to derive requirements from the eWpG (Electronic Securities Act) for fund units and to develop a Target Operating Model. I am excited to see where my journey in the world of the blockchain technology will take me next...'
+    content: 'I currently work at Deloitte as a consultant where I mainly deal with the implementation of innovative technologies in the financial sector. I have a particular passion for the blockchain technology. Currently, I am particularly interested in the DeFi area. I have also gained some experience in the development of smart contracts and frontends for them. In addition, I also have project experience in the regulatory environment related to the blockchain technology. For example, I helped a large custodian to derive requirements from the eWpG (Electronic Securities Act) for fund units and to develop a Target Operating Model. I am excited to see where my journey in the world of the blockchain technology will take me next...'
   },
   education: {
     title: "Education",
