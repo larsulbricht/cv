@@ -20,7 +20,7 @@ export default {
       name: "Technische Universität München",
       description:
         "Management and Technology (M.Sc.) an der TU München mit Finance- und Informatikspezialisierung.",
-      grade: "Notenschnitt: 1,1",
+      grade: "Notenschnitt: 1,2",
       degree: "Master of Science",
     },
     education_kyoto: {
