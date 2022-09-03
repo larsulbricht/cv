@@ -4,13 +4,33 @@
           id='professional_head'><v-icon class="mr-4">mdi-briefcase </v-icon>{{$vuetify.lang.locales[$vuetify.lang.current].professional.title}}</v-banner
         >
                 <v-timeline :dense="$vuetify.breakpoint.mobile">
-          <v-timeline-item :color="config.color.main">
+           <v-timeline-item :color="config.color.main">
             <span slot="opposite">
-              04/2021 – Jetzt 
+              06/2022 – Jetzt 
             </span>
             <v-card class="elevation-2">
               <v-card-title class="text-h7">
-                {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte.name}} <v-subheader v-if="$vuetify.breakpoint.mobile">04/2021 – Jetzt</v-subheader>
+                {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte2.name}} <v-subheader v-if="$vuetify.breakpoint.mobile">06/2022 – Jetzt</v-subheader>
+              </v-card-title>
+              <v-card-text>
+                {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte2.description}}
+              </v-card-text>
+                 <v-chip
+              class="white--text mb-4 ml-4"
+              :color="config.color.secondary"
+              label
+            >
+              {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte2.title}}
+            </v-chip>             
+            </v-card></v-timeline-item
+          >      
+          <v-timeline-item :color="config.color.main">
+            <span slot="opposite">
+              04/2021 – 06/2022 
+            </span>
+            <v-card class="elevation-2">
+              <v-card-title class="text-h7">
+                {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte.name}} <v-subheader v-if="$vuetify.breakpoint.mobile">04/2021 – 06/2022</v-subheader>
               </v-card-title>
               <v-card-text>
                 {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte.description}}
@@ -22,13 +42,6 @@
             >
               {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte.title}}
             </v-chip>             
-            <v-chip
-              class="white--text mb-4 ml-4"
-              :color="config.color.secondary"
-              label
-            >
-               Consultant
-            </v-chip>
             </v-card></v-timeline-item
           >
            <v-timeline-item :color="config.color.main">

@@ -62,8 +62,13 @@ export default {
   },
   professional_deloitte: {
     name: "デロイト トウシュ トーマツ",
-    description: "Digital, AI Controls & Algorithms (DAICA)の一員として、ブロックチェーンやRPA、AI関連を専門とするコンサルタント業務に就いています。",
-    title: "正社員",
+    description: "デジタル、AIコントロール、アルゴリズム（DAICA）チームに所属し、コンサルタントとしてRPA、DLT/ブロックチェーン、AIなどのイノベーティブテクノロジーに取り組んでいました。",
+    title: "Consultant",
+  },
+  professional_deloitte2: {
+    name: "Deloitte",
+    description: "シニアコンサルタントとして、デジタル、AIコントロール、アルゴリズム（DAICA）チームで、主にデジタルアセットとブロックチェーン技術が銀行や資本市場のインフラにどのような革命をもたらすかに取り組んでいます。",
+    title: "Senior Consultant",
   },
 },
   certifications: {
@@ -82,6 +87,12 @@ export default {
     },
     psm: {
       name: "Professional Scrum Master™ I (PSM I)",
+    },
+    uipath: {
+      name: "UiPath Advanced RPA Developer"
+    },
+    defi: {
+      name: "DeFi Talents Program"
     },
   },
   controls: {

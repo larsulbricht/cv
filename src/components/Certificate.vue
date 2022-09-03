@@ -80,6 +80,46 @@
           </v-img>
         </a>
       </v-card>
+            </v-card>
+
+            <v-card class="mt-4 ml-md-4 hobby-box" min-width="250px">
+        <v-card-title primary-title>
+          {{$vuetify.lang.locales[$vuetify.lang.current].certifications.uipath.name}}
+        </v-card-title>
+
+        <a
+          target="_blank"
+          href='https://www.certmetrics.com/uipath/public/badge.aspx?i=2&t=c&d=2022-05-31&ci=UIP00191477'
+        >
+          <v-img
+            class="mb-4"
+            contain
+            max-height="200px"
+            src="./../assets/uipath_badge.png"
+          >
+          </v-img>
+        </a>
+      </v-card>
+            </v-card>
+
+            <v-card class="mt-4 ml-md-4 hobby-box" min-width="250px">
+        <v-card-title primary-title>
+          {{$vuetify.lang.locales[$vuetify.lang.current].certifications.defi.name}}
+        </v-card-title>
+
+        <a
+          target="_blank"
+          href="https://my.defi-talents.io/certificates/alumni-cohort-2/lars-ulbricht-defi-talent"
+        >
+          <v-img
+            class="mb-4"
+            contain
+            max-height="200px"
+            src="./../assets/defi_badge.png"
+          >
+          </v-img>
+        </a>
+      </v-card>
 
       <v-row justify="center">
         <v-dialog v-model="dialog1" width="600px">
