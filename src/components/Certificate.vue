@@ -79,7 +79,6 @@
           >
           </v-img>
         </a>
-      </v-card>
             </v-card>
 
             <v-card class="mt-4 ml-md-4 hobby-box" min-width="250px">
@@ -99,7 +98,6 @@
           >
           </v-img>
         </a>
-      </v-card>
             </v-card>
 
             <v-card class="mt-4 ml-md-4 hobby-box" min-width="250px">
