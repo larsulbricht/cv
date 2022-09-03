@@ -62,8 +62,13 @@ export default {
   },
   professional_deloitte: {
     name: "Deloitte",
-    description: "I am part of the team Digital, AI Controls & Algorithms (DAICA) and work with innovative technologies like RPA, DLT/Blockchain and AI.",
-    title: "Fulltime",
+    description: "I was part of the Digital, AI Controls and Algorithms (DAICA) team as a consultant working on Innovative Technologies such as RPA, DLT/Blockchain and AI.",
+    title: "Consultant",
+  },
+  professional_deloitte2: {
+    name: "Deloitte",
+    description: "As a Senior Consultant, I work in the Digital, AI Controls and Algorithms (DAICA) team primarily on Digital Assets and how Blockchain technology can revolutionize banking and capital markets infrastructure.",
+    title: "Senior Consultant",
   },
 },
   certifications: {
@@ -82,7 +87,13 @@ export default {
     },
     psm: {
       name: "Professional Scrum Master™ I (PSM I)",
-    },    
+    },
+    uipath: {
+      name: "UiPath Advanced RPA Developer"
+    },
+    defi: {
+      name: "DeFi Talents Program"
+    },  
   },
   controls: {
     close: "Close",

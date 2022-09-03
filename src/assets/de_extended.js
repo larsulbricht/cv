@@ -60,12 +60,17 @@ export default {
   professional_fujitsu: {
     name: "Fujitsu Technology Solutions GmbH",
     description: "In dieser Tätigkeit beschäftigte ich mich hauptsächlich mit neuen Technologien. Ich arbeitete z.B. an Blockchain-Lösungen und Einsatzgebieten für Persistent Memory.",
-    title: "Praktikum",
+    title: "Werkstudent",
   },
   professional_deloitte: {
     name: "Deloitte",
-    description: "Ich bin Teil des Teams Digital, AI Controls und Algorithms (DAICA) und beschäftige mich mit Innovativen Technologien wie RPA, DLT/Blockchain und AI.",
-    title: "Praktikum",
+    description: "Ich war als Consultant Teil des Teams Digital, AI Controls und Algorithms (DAICA) und beschäftigte mich mit Innovativen Technologien wie RPA, DLT/Blockchain und AI.",
+    title: "Consultant",
+  },
+  professional_deloitte2: {
+    name: "Deloitte",
+    description: "Als Senior Consultant beschäftige ich mich im Team Digital, AI Controls und Algorithms (DAICA) primär mit Digitalen Assets und wie die Blockchain-Technologie die Bank- und Kapitalmarktinfrastruktur revolutionieren kann.",
+    title: "Senior Consultant",
   },
 },
   certifications: {
@@ -84,6 +89,12 @@ export default {
     },
     psm: {
       name: "Professional Scrum Master™ I (PSM I)",
+    },
+    uipath: {
+      name: "UiPath Advanced RPA Developer"
+    },
+    defi: {
+      name: "DeFi Talents Program"
     },
   },
   links:{
