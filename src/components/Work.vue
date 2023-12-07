@@ -6,7 +6,29 @@
                 <v-timeline :dense="$vuetify.breakpoint.mobile">
            <v-timeline-item :color="config.color.main">
             <span slot="opposite">
-              06/2022 – Jetzt 
+              01/2023 – Jetzt 
+            </span>
+            <v-card class="elevation-2">
+              <v-card-title class="text-h7">
+                {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte3.name}} <v-subheader v-if="$vuetify.breakpoint.mobile">04/2021 – 06/2022</v-subheader>
+              </v-card-title>
+              <v-card-text>
+                {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte3.description}}
+              </v-card-text>
+                 <v-chip
+                                   v-for="n in 6"
+              :key="n"
+              class="white--text mb-4 ml-4"
+              :color="config.color.secondary"
+              label
+            >
+            {{ $vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte3['title' + (n)] }}
+            </v-chip>             
+            </v-card></v-timeline-item
+          >
+           <v-timeline-item :color="config.color.main">
+            <span slot="opposite">
+              06/2022 – 12/2022 
             </span>
             <v-card class="elevation-2">
               <v-card-title class="text-h7">
@@ -16,11 +38,13 @@
                 {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte2.description}}
               </v-card-text>
                  <v-chip
+                                   v-for="n in 4"
+              :key="n"
               class="white--text mb-4 ml-4"
               :color="config.color.secondary"
               label
             >
-              {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte2.title}}
+            {{ $vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte2['title' + (n)] }}
             </v-chip>             
             </v-card></v-timeline-item
           >      
@@ -36,11 +60,13 @@
                 {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte.description}}
               </v-card-text>
                  <v-chip
+                  v-for="n in 4"
+              :key="n"
               class="white--text mb-4 ml-4"
               :color="config.color.secondary"
               label
             >
-              {{$vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte.title}}
+            {{ $vuetify.lang.locales[$vuetify.lang.current].professional.professional_deloitte['title' + (n)] }}
             </v-chip>             
             </v-card></v-timeline-item
           >

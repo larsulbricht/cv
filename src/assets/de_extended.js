@@ -12,7 +12,7 @@ export default {
   },
   aboutme: {
     title: "Zusammenfassung",
-    content: 'Ich arbeite derzeit bei Deloitte als Consultant wo ich mich hauptsächlich mit der Implementierung innovativer Technologien im Finanzsektor beschäftige. Eine besondere Leidenschaft habe ich für die Blockchain-Technologie. Aktuell beschäftige ich mich insbesondere mit dem DeFi-Bereich. Ich konnte auch schon einige Erfahrung in der Entwicklung vom Smart Contracts und Frontends für diese sammeln. Darüber hinaus habe ich auch Projekterfahrung im regulatorischen Umfeld im Bezug zur Blockchain-Technologie. So habe ich z.B. einer großen Verwahrstelle dabei geholfen Anforderungen aus dem eWpG für Fondanteile abzuleiten und ein Target Operating Model zu entwickeln. Ich bin schon gespannt wohin mich meine Reise in der Welt der Blockchain-Technologie als nächstes hinführt...'
+    content: 'Als Senior Consultant im Web3-Team der Deloitte Garage konzentriere ich mich auf die Entwicklung innovativer Geschäftsmodelle, mit einem besonderen Schwerpunkt auf Digital Assets und Digital Money. Meine Expertise umfasst ein breites Spektrum, angefangen bei der technischen Ausgestaltung über fachliche Fragestellungen bis hin zu regulatorischen Aspekten. Ich verfüge über umfangreiche Projekterfahrung bei verschiedenen Banken, Bankenverbänden und Unternehmen im Kapitalmarktbereich. Ein Beispiel meiner Arbeit ist die Unterstützung einer großen Verwahrstelle bei der Umsetzung von Anforderungen aus dem eWpG für Kryptofondsanteile und bei der Entwicklung eines Target Operating Models. Ich freue mich darauf, in Zukunft weitere Herausforderungen und Entwicklungen im Bereich der Blockchain-Technologie zu erleben.'
   },
   education: {
     title: "Mein Bildungsweg",
@@ -63,14 +63,30 @@ export default {
     title: "Werkstudent",
   },
   professional_deloitte: {
-    name: "Deloitte",
+    name: "Deloitte Risk Advisory (DAICA)",
     description: "Ich war als Consultant Teil des Teams Digital, AI Controls und Algorithms (DAICA) und beschäftigte mich mit Innovativen Technologien wie RPA, DLT/Blockchain und AI.",
-    title: "Consultant",
+    title1: "Consultant",
+    title2: "DAICA",
+    title3: "Blockchain",
+    title4: "Risk Advisory",
   },
   professional_deloitte2: {
-    name: "Deloitte",
+    name: "Deloitte Risk Advisory (DAICA)",
     description: "Als Senior Consultant beschäftige ich mich im Team Digital, AI Controls und Algorithms (DAICA) primär mit Digitalen Assets und wie die Blockchain-Technologie die Bank- und Kapitalmarktinfrastruktur revolutionieren kann.",
-    title: "Senior Consultant",
+    title1: "Senior Consultant",
+    title2: "DAICA",
+    title3: "Blockchain",
+    title4: "Risk Advisory",
+  },
+  professional_deloitte3: {
+    name: "Deloitte Consulting Web3 (The Garage)",
+    description: "Als Mitglied des Web3-Teams in der Deloitte Garage liegt mein Fokus hauptsächlich auf den Bereichen Digital Assets und Digital Money. In dieser Rolle unterstütze ich Unternehmen, besonders im Finanzdienstleistungssektor (FSI), bei der Entwicklung innovativer Geschäftsmodelle, die auf blockchainbasierten Vermögenswerten und Zahlungsmethoden basieren. Meine Aufgaben umfassen sowohl die Bereitstellung technischer als auch fachlicher und regulatorischer Expertise.",
+    title1: "Senior Consultant",
+    title2: "The Garage",
+    title3: "Consulting",
+    title4: "Digital Assets",
+    title5: "Digital Money",
+    title6: "Web3",
   },
 },
   certifications: {
